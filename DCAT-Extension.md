@@ -1,32 +1,33 @@
 # DCAT Extensions
 ## 1.	TIME-BASED PROPERTIES
-1.1.	Timeliness
-dprod:timeliness
+###1.1.	Timeliness
+```dprod:timeliness```
 
-Cardinality
-0 – 1
+**Cardinality**
+**0 – 1**
 
-Label
+**Label**
 Timeliness of delivery
 
-Definition
+**Definition**
 Specifies the timing of the permitted use or onwards delivery of a Dataset.
 
-Note
+**Note**
 These intervals are frequently identified as Realtime, Delayed, or Embargoed.
 
-Note
+**Note**
 Unless explicitly prohibited, Permissions over shorter intervals carry across to longer intervals (e.g. Realtime data also covers Delayed, and Embargoed data)
 
-Domain
-dcat:Dataset
+**Domain**
+```dcat:Dataset```
 
-Range
-time:ProperInterval
+**Range**
+```time:ProperInterval```
 
-1.2.	Update Method
-dprod:updateMethod
-Cardinality
+###1.2.	Update Method
+```dprod:updateMethod```
+
+**Cardinality**
 0 – 1
 
 Label
